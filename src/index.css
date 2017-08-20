@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.row {
+  padding: 1em;
+}
+
+nav a {
+  padding: 1em;
+  text-decoration: none;
+}
+
+nav a.selected {
+  text-decoration: underline;
+}
+
+.table-sm tr {
+  height: auto;
+}
+
+.table-sm td {
+  padding: 3px;
+  height: auto;
+}
+
+.pagination  li {
+  list-style: none;
+  float: left;
+}
+.pagination a {
+  display: block;
+  pointer-events: all;
+  outline: none;
+  text-decoration: none;
+  color: grey;
+}
+.pagination .active {
+  background: #3f51b5 !important;
+}
+.pagination .active a {
+  color: #fff !important;
+}
+
+[data-react-toolbox="dialog"] [role="body"] {
+  overflow-y: scroll;
+}
