@@ -10,10 +10,13 @@ import history from './history';
 
 class App extends Component {
   render() {
+     var divStyle = {
+      color: '#4b70ff',
+    };
     return (
       <ThemeProvider theme={theme}>
         <div>
-          <h1>Quantiful simple test</h1>
+          <h1 style={divStyle}>Quantiful simple test</h1>
           <MainPage />
         </div>
       </ThemeProvider>

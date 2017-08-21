@@ -73,7 +73,7 @@ class Insert extends React.Component {
         <Input type='text' label='Gender' value={gender} onChange={this.handleChangeGender.bind(this)} maxLength={16 } />
         <Input type='text' label='Comments' value={commentMessage} onChange={this.handleChangeComments.bind(this)} maxLength={500 } />
         <Input type='text' label='Likes' value={commentLikes} onChange={this.handleChangeLikes.bind(this)} maxLength={16 } />
-        <Button label="Search" onClick={this.addName.bind(this)} raised primary/>
+        <Button label="Add" onClick={this.addName.bind(this)} raised primary/>
       </section>
     );
   }

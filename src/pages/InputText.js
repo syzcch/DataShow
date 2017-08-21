@@ -37,12 +37,15 @@ class InputText extends React.Component {
 
   render () {
     var value = this.state.name;
+    var divStyle = {
+      color: '#7b73f0',
+    };
     return (
       <section>
         <Input type='text' ref="myTextInput" label='Name' value={value} onChange={this.handleChange.bind(this)} maxLength={30 } />
         <Button label="Search" onClick={this.searchName.bind(this)} raised primary/>
         <div>
-            <h2>Name:  {this.state.name} </h2>
+            <h4 style={divStyle}>Name:  {this.state.name} </h4>
             <p>Male Num:  {this.state.male} </p>
             <p>Female Num:  {this.state.female} </p>
             <p>Comment Num:  {this.state.commentNum} </p>
