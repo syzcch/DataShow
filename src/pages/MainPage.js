@@ -23,7 +23,7 @@ class MainPage extends Component {
             <Top />
             <br/>
             <hr />
-            <h2 style={divStyle}>Post details by post id</h2>
+            <h2 style={divStyle}>Get Post details by post id</h2>
             <Post />
           </Col>
           <br/>
