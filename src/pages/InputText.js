@@ -9,7 +9,7 @@ class InputText extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-          name : '', 
+          name : 'peter wei', 
           male : '', 
           female : '', 
           commentNum : '', 
